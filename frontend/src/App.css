@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+.navbar{
+    max-width:1440px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    margin: auto;
+}
+.logo img{
+    max-width: 75px;
+    max-height: 45px;
+}
+.mainImg {
+    max-width: 530px;
+    height: 487px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.texts{
+    width: 595px;
+    height: 613px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-direction: column;
+}
+.menuList{
+    width: 333px;
+    height: 24px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+}
+.btn{
+    width: 75px;
+    height: 30px;
+    background-color: #D01C28;
+;
+border: none;
+
+}
+
+.heroSection{
+    max-width: 1125px;
+    height: 613px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  100px auto;
+
+}
+.mainHeading{
+    width: 595px;
+height: 306px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 100px;
+}
+.subHeading{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5A5959;
+;
+}
+.heroBtns{
+    width: 331px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shopNowBtn{
+    width: 150px;
+    height: 41px;
+    gap: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color:  #D01C28;
+    ;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.categoryBtn{
+    width: 141px;
+    height: 41px;
+    gap: 10px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    border-width: 1px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.socialMedia{
+    width: 131px;
+    height: 67px;
+    gap: 16px;
+
+}
+.socailMediaimgs{
+    width: 80px;
+    height: 32px;
+    gap: 16px;
+}
+.socailMediaimgs img{
+    width: 32px;
+    height: 32px;
+
+}
+.text-white{
+    color: white;
+}
